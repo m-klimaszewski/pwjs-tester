@@ -193,7 +193,7 @@ console.log(fn2(2, 1)); // -1
 ### problem019
 
 Napisz funkcję `carry(a)`, której wynikiem będzie nowa funkcja przyjmująca `n-1` argumentów względem orginału, ta z kolei zwraca funkcję przyjmującą `n-2` argumenty względem orginału itd.
-Celem nowej funkcji jest wywołanie kaskady funkcji, z której każda z nich jest argumentowa.
+Celem nowej funkcji jest wywołanie kaskady funkcji, z której każda z nich jest jedno-argumentowa.
 ```
 function carry(a) {...
 ```
